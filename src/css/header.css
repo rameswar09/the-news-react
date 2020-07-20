@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+    font-size:x-large;
+}
+.app-title-wrapper{
+    height: 90px;
+    background: #021636;
+    color: white;
+   border-bottom: 2px solid wheat;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar > div{
+    /* background-color: blue; */
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    border-right: 1px solid rgb(94, 86, 86);
+   
+}
+
+
+.nav-bar > div:hover {
+   color: #53e053;
+  }
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
